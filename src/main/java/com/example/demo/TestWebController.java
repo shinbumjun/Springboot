@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/test")
 public class TestWebController {
-
+	// 수정
    @GetMapping("/hello")
    public String hello() {
       return "hello";
